@@ -13,6 +13,12 @@ header{
    
 }
 
+body{
+max-width: 1400px; width: 100%; margin: 0px auto;
+}
+
+
+
 nav{
    
     color: #ffffff;
