@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+
+header{
+   background-color: #636C79;
+  
+   
+}
+
+nav{
+   
+    color: #ffffff;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    height: 10vh;
+    
+}
+.logo{
+    
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 1vw;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.links{
+    margin-left: 60vh;
+}
+
+.nav-button{
+    margin: 10px 30px ;
+    width:150px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #636C79;
+    border: solid 1px #ffffff;
+}
+
+.header-section1{
+    
+    height: 75vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.headerimage{
+   
+    width:350px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 130px;
+
+}
+.headerimage1{
+    width:350px;
+    height: 400px;
+    border-radius: 5px;
+
+}
+.header-text-h1{
+    font-family: "Raleway";
+    
+}
+
+.header-section2{
+   
+    font-size: 25px;
+    width:500px;
+    height: 400px;
+    padding: 50px;
+    margin: 60px;
+    margin-right: 200px;
+    color: #ffffff;
+}
+
+.header-paragraph{
+    padding: 10px 0px;
+
+    font-size: 15px;
+    margin-right:70px;
+    font-family: "Poppins";
+}
+
+.email-contact{
+   
+    width:500px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.mailsvg{
+    padding-left:20px ;
+    width:20px;
+    height: 20px;
+}
+
+.email-text{
+    margin-right: 80px;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.email-input-box{
+    padding: 10px;
+    border: none;
+}
+
+
+.email-button>button{
+    width:150px;
+    height: 40px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #8BB7A2;
+    border: none;
+}
+
+.main{
+    border: solid red;
+    margin-top: 70px;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.main-heading{
+    border: solid red;
+    width:500px;
+    text-align: center;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+
+.accomplishments{
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 70vw;
+}
+
+.accomplishmentsall{
+    border: solid red;
+    font-family: "Poppins";
+    font-weight: 600;
+    color:#636C79;
+}
+
+.accomplishmentsall>h3{
+    color: #000000;
+    font-size: 30px;
+    padding: 0px 30px;
+}
+
+.main-center-image{
+    border: solid red;
+    margin: 20px;
+}
+
+.main-center-image>img{
+    width:80vw;
+    height: 450px;
+}
+
+.services{
+    border: solid red;
+    width: 80vw;
+}
+
+.services-heading{
+
+    font-family: "Raleway";
+    padding: 50px 200px;
+    margin: 0px 200px;
+    font-weight: 700;
+}
+
+.services-heading>h1{
+    text-align: center;
+}
+
+.website-design{
+    border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 60vh;
+}
+
+.rightside1>img{
+    width:30vw;
+    height: 58vh;;
+    border-radius: 5px;
+
+}
+
+.leftside1{
+    border: solid red;
+    height: 300px;
+    margin: 100px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 30px;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.leftside1>p{
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    color: #636C79;
+}
+
+.leftside1>button{
+    margin-top:50px;
+    width:150px;
+    border:none;
+    height:50px;
+    color: #ffffff;
+    background-color: #8BB7A2;
+}
+
+.Market-design{
+    margin-top: 100px;
+    border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 60vh;
+}
+
+
+.leftSideMarket-design>img{
+    width:30vw;
+    height: 58vh;
+    border-radius: 5px;
+
+}
+
+.rightSideMarket-design{
+    border: solid red;
+    height: 300px;
+    margin: 100px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 30px;
+    padding: 25px;
+    margin-top: 150px;
+}
+
+.rightSideMarket-design>p{
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    color: #636C79;
+}
+
+.rightSideMarket-design>button{
+    margin-top:50px;
+    width:150px;
+    border:none;
+    height:50px;
+    color: #ffffff;
+    background-color: #8BB7A2;
+}
+
+.website-design2{
+    margin-top: 100px;
+    border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 60vh;
+}
+
+.website-design2-rightside>img{
+    width:30vw;
+    height: 58vh;;
+    border-radius: 5px;
+}
+
+.website-design2-leftside{
+
+    border: solid red;
+    height: 300px;
+    margin: 100px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 30px;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.website-design2-leftside>p{
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    color: #636C79;
+}
+
+.website-design2-leftside>button{
+    margin-top:50px;
+    width:150px;
+    border:none;
+    height:50px;
+    color: #ffffff;
+    background-color: #8BB7A2;
+
+}
+
+.teaminfo{
+    border: solid red;
+    margin-top: 150px;
+    width:80vw;
+    
+}
+
+.teamintro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teamintroleftside{
+    width:20vw;
+    height: 100px;
+    font-family: "Raleway";
+    padding: 20px 0px;
+    font-size: 30px;
+    border: solid red;
+    
+}
+
+.teamintroright{
+    border:  solid red;
+    width:40vw;
+    height: 100px;
+    font-family: "Poppins";
+    color: #636C79;
+    font-size: 20px;
+}
+
+.person-intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    border: solid blue;
+    margin-top: 50px;
+}
+
+.person-intro>.person{
+    border: solid red;
+    width: 23vw;
+
+}
+
+.person>img{
+    width:23vw;
+    height:300px;
+    
+}
+
+.person>h4{
+    margin:10px 0px;
+    font-family: "Raleway";
+}
+
+.person>p{
+    font-family: "Poppins";
+    font-size: 15px;
+    color: #636C79;
+}
+
+.teaminfo>button
+{
+    width:150px;
+    height: 50px;
+    border: none;
+    color: #ffffff;
+    background-color: #8BB7A2;
+    margin: 20px 37vw;
+}
+
+.content{
+    margin-top:100px;
+    background-color: #10181D;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-firstrow{
+    height: 150px;
+    width: 80vw;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid red;
+
+}
+
+.media-icons>a>img{
+    width:50px;
+    height: 50px;
+
+}
+
+
+
