@@ -61,6 +61,7 @@ nav{
     height: 75vh;
     display: flex;
     align-items: center;
+   
 
 }
 
@@ -90,8 +91,9 @@ nav{
     height: 400px;
     padding: 50px;
     margin: 60px;
-    margin-right: 200px;
+    margin-left: 200px;
     color: #ffffff;
+   
 }
 
 .header-paragraph{
@@ -142,7 +144,7 @@ nav{
 }
 
 .main{
-    border: solid red;
+    
     margin-top: 70px;
     padding: 0px 100px;
     display: flex;
@@ -152,7 +154,7 @@ nav{
 }
 
 .main-heading{
-    border: solid red;
+    
     width:500px;
     text-align: center;
     font-family: "Raleway";
@@ -163,14 +165,14 @@ nav{
 
 .accomplishments{
     display: flex;
-    border: solid red;
+    
     justify-content: space-between;
     margin-top: 50px;
     width: 70vw;
 }
 
 .accomplishmentsall{
-    border: solid red;
+    
     font-family: "Poppins";
     font-weight: 600;
     color:#636C79;
@@ -183,7 +185,7 @@ nav{
 }
 
 .main-center-image{
-    border: solid red;
+    
     margin: 20px;
 }
 
@@ -193,15 +195,15 @@ nav{
 }
 
 .services{
-    border: solid red;
+    
     width: 80vw;
 }
 
 .services-heading{
 
     font-family: "Raleway";
-    padding: 50px 200px;
-    margin: 0px 200px;
+    padding: 20px 100px;
+    margin: 15px 200px;
     font-weight: 700;
 }
 
@@ -210,11 +212,12 @@ nav{
 }
 
 .website-design{
-    border: solid red;
+    
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 80vw;
+  
     height: 60vh;
 }
 
@@ -226,7 +229,7 @@ nav{
 }
 
 .leftside1{
-    border: solid red;
+    
     height: 300px;
     margin: 100px;
     font-family: "Raleway";
@@ -234,6 +237,8 @@ nav{
     font-size: 30px;
     padding: 25px;
     margin-top: 200px;
+    margin-left: 0px;
+   
 }
 
 .leftside1>p{
@@ -254,7 +259,7 @@ nav{
 
 .Market-design{
     margin-top: 100px;
-    border: solid red;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -271,7 +276,7 @@ nav{
 }
 
 .rightSideMarket-design{
-    border: solid red;
+    
     height: 300px;
     margin: 100px;
     font-family: "Raleway";
@@ -299,7 +304,7 @@ nav{
 
 .website-design2{
     margin-top: 100px;
-    border: solid red;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -315,7 +320,7 @@ nav{
 
 .website-design2-leftside{
 
-    border: solid red;
+    
     height: 300px;
     margin: 100px;
     font-family: "Raleway";
@@ -323,6 +328,7 @@ nav{
     font-size: 30px;
     padding: 25px;
     margin-top: 200px;
+    margin-left: 0px;
 }
 
 .website-design2-leftside>p{
@@ -343,7 +349,7 @@ nav{
 }
 
 .teaminfo{
-    border: solid red;
+    
     margin-top: 150px;
     width:80vw;
     
@@ -361,12 +367,12 @@ nav{
     font-family: "Raleway";
     padding: 20px 0px;
     font-size: 30px;
-    border: solid red;
+    
     
 }
 
 .teamintroright{
-    border:  solid red;
+   
     width:40vw;
     height: 100px;
     font-family: "Poppins";
@@ -379,12 +385,12 @@ nav{
     align-items: center;
     justify-content: space-between;
     width: 80vw;
-    border: solid blue;
+    
     margin-top: 50px;
 }
 
 .person-intro>.person{
-    border: solid red;
+    
     width: 23vw;
 
 }
@@ -408,38 +414,93 @@ nav{
 
 .teaminfo>button
 {
+    
     width:150px;
     height: 50px;
     border: none;
     color: #ffffff;
     background-color: #8BB7A2;
-    margin: 20px 37vw;
+   margin-top: 50px;
+   margin-left: 35vw;
+   
 }
 
 .content{
     margin-top:100px;
     background-color: #10181D;
-    height: 400px;
+    
     display: flex;
-    justify-content: center;
+   flex-direction: column;
+   
     align-items: center;
 }
 
+footer{
+  
+}
+
 .footer-firstrow{
-    height: 150px;
+    height: 50px;
     width: 80vw;
+    margin: 10vh 9vw;
     
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid red;
+    
+    
 
 }
 
-.media-icons>a>img{
-    width:50px;
-    height: 50px;
+.media-icons{
+    display: flex;
+   
+}
 
+.media-icons-bg{
+    background-color: #636C79;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.media-icons>.media-icons-bg>a>img{
+    width:30px;
+    height: 30px;
+    padding: 10px;
+   
+   
+
+}
+
+.link-boxes{
+    display: flex;
+    justify-content: space-between;
+    
+    width:80vw;
+    margin: 10px 9vw;
+
+}
+
+.link-boxes>.box{
+ height: 200px;
+
+}
+
+.box>li{
+    margin: 10px;
+    list-style: none;
+    color: #ffffff;
+    font-family: "Poppins";
+
+}
+
+.box>li>a{
+    list-style: none;
+    color: #636C79;
+    text-decoration: none;
+    font-size: 12px;
 }
 
 
