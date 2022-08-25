@@ -12,6 +12,8 @@ I was able to apply css styles by using External style sheet.
 Was able to use concepts of css like selectors which are used to target a particular class or a element. Got handson experience on using properties like margins, padding,borders etc.   
 
 ![image](./Output.png)
+# Mobile Image
+![Mobileimage](./mobilescreenshot.png)
 
 ## Time taken to complete this project:
 4 hrs

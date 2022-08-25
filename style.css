@@ -25,7 +25,7 @@ nav{
     display: flex;
     align-items:center;
     justify-content:space-between;
-    height: 10vh;
+   
     
 }
 .logo{
@@ -54,6 +54,9 @@ nav{
     color: #ffffff;
     background-color: #636C79;
     border: solid 1px #ffffff;
+}
+.menu-bar{
+    display: none;
 }
 
 .header-section1{
@@ -216,9 +219,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80vw;
-  
-    height: 60vh;
+    
 }
 
 .rightside1>img{
@@ -230,7 +231,7 @@ nav{
 
 .leftside1{
     
-    height: 300px;
+    
     margin: 100px;
     font-family: "Raleway";
     font-weight: 700;
@@ -264,7 +265,7 @@ nav{
     align-items: center;
     justify-content: center;
     width: 80vw;
-    height: 60vh;
+
 }
 
 
@@ -277,7 +278,7 @@ nav{
 
 .rightSideMarket-design{
     
-    height: 300px;
+
     margin: 100px;
     font-family: "Raleway";
     font-weight: 700;
@@ -309,7 +310,7 @@ nav{
     align-items: center;
     justify-content: center;
     width: 80vw;
-    height: 60vh;
+    
 }
 
 .website-design2-rightside>img{
@@ -321,7 +322,7 @@ nav{
 .website-design2-leftside{
 
     
-    height: 300px;
+   
     margin: 100px;
     font-family: "Raleway";
     font-weight: 700;
@@ -391,7 +392,7 @@ nav{
 
 .person-intro>.person{
     
-    width: 23vw;
+    width: fit-content;
 
 }
 
@@ -504,4 +505,270 @@ footer{
 }
 
 
+@media screen and (max-width:1450px) {
+    
+
+    .logo{
+    
+        margin-left: 1vw;
+        margin-top: 3vh;
+    }
+
+    .links{
+        margin-left: 25vh;
+    }
+
+    .headerimage{
+        margin-left: 50px;
+    }
+
+    .header-section2{
+        margin: 20px;
+        padding: 10px;
+
+    }
+
+    .services-heading{
+        margin: 15px 100px;
+    }
+
+    .rightSideMarket-design{
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .links{
+        margin-left: 10vh;
+    }
+
+    .email-contact{
+        justify-content: flex-start;
+        width:fit-content
+    }
+
+    .email-text {
+        margin-right: 10px;
+    }
+    
+}
+
+@media screen and (max-width:850px) {
+    .links{
+        margin-left: 0vh;
+    }
+
+    .header-text-h1{
+        font-size: 35px;
+    }
+
+    .mailsvg{
+        display: none;
+    }
+    .email-button>button{
+        width:100px
+    }
+    .services-heading{
+        padding: 0px;
+    }
+
+    .rightSideMarket-design{
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .rightSideMarket-design>button{
+        margin-top: 10px;
+    }
+
+    .website-design2-leftside{
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .leftside1{
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .nav-button{
+        display: none;
+    }
+    .menu-bar{
+        display: inline-flex;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .links{
+        display: none;
+    }
+
+    
+
+    .header-section1{
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .headerimage{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: fit-content;
+       height: fit-content;
+       margin: 0px;
+       margin-top: 20px;
+    }
+    .headerimage1{
+        height: 30vh;
+        width:80vw;
+        margin: 0px;
+        
+    }
+
+    .header-paragraph{
+        margin: 0px;
+    }
+
+    .header-section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5vw;
+        width: 80vw;
+    }
+
+    .main{
+        padding: 0px;
+        width: 100vw;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-heading{
+        width: fit-content;
+    }
+    .accomplishments{
+        overflow-x: scroll;
+    }
+    .accomplishmentsall{
+        text-align: center;
+    }
+    .main-center-image{
+        
+        height: fit-content;
+        width: fit-content;
+     
+       
+    }
+
+    .services-heading{
+       
+        margin: 0px;
+        
+    }
+
+    .website-design{
+        flex-direction: column;
+    
+       
+        align-items: center;
+        justify-content: center;
+    }
+    .leftside1{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightside1{
+        order: -1;
+    }
+    .rightside1>img{
+        width:70vw;
+    }
+
+    .Market-design{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .leftSideMarket-design>img{
+        width:70vw;
+    }
+
+    .website-design2{
+        
+        flex-direction: column;
+        
+        height: fit-content;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+    .website-design2-rightside{
+        order: -1;}
+
+        .website-design2-rightside>img{
+            width:70vw;
+        }
+
+    .teaminfo{
+        margin-top: 20px;
+    }
+
+    .teamintroleftside,.teamintroright{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .teamintro{
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        
+    }
+
+    .person-intro{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        overflow-x:scroll ;
+    }
+
+    .person{
+        width: fit-content;
+        height: fit-content;
+        
+    }
+
+    .person>img{
+        width:200px;
+    }
+
+
+    .teaminfo>button {
+        margin-left: 0px;
+    }
+
+    .footer-firstrow{
+    flex-direction: column;
+    }
+
+    .link-boxes{
+        flex-direction: column;
+    }
+
+  
+
+}
 
