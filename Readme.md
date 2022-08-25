@@ -19,6 +19,7 @@ Was able to use concepts of css like selectors which are used to target a partic
 4 hrs
 
 ## Application Link
+https://bussinesslandingpage.netlify.app/
 
 
 ### Techonology used:
